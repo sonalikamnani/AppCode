@@ -1,0 +1,12 @@
+---
+env:
+  HW_SERVICE_HOST: predix-microservice-cf-spring-sonali.run.aws-usw02-pr.ice.predix.io
+  HW_SERVICE_PORT: 80
+  HW_SERVICE_ADMIN_USERNAME: sonali.kamnani@infosys.com
+  HW_SERVICE_ADMIN_PASSWORD: COmplicated123!
+
+applications:
+- name: hello-world-spring-service-broker-sonali
+  memory: 512M
+  instances: 1
+  path: ./build/libs/hello-world-spring-service-broker-0.1.war
